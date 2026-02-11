@@ -86,24 +86,24 @@ export default function ValentinesProposal() {
           <motion.h2
             key="step-0"
             className={`text-4xl font-semibold mb-4 ${playfairDisplay.className}`}
-            transition={{ duration: 1 }}
+            transition={{ duration: 3 }}
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
           >
-            Congratulations! You have completed the game.
+            Congrats baby! You did it!
           </motion.h2>
         )}
         {step === 1 && (
           <motion.h2
             key="step-1"
             className={`text-4xl font-semibold mb-4 ${playfairDisplay.className}`}
-            transition={{ duration: 3 }}
+            transition={{ duration: 5 }}
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
           >
-            I have a surprise for you!
+            Just one little surprise for my princess
           </motion.h2>
         )}
         {step === 2 && (
@@ -135,10 +135,10 @@ export default function ValentinesProposal() {
               Will you be my Valentine?
             </h2>
             <Image
-              src="/sad_hamster.png"
-              alt="Sad Hamster"
-              width={200}
-              height={200}
+              src="/bear.jpg"
+              alt="me lol"
+              width={400}
+              height={400}
             />
             <div className="flex space-x-4 mt-10">
               <button
@@ -175,8 +175,8 @@ export default function ValentinesProposal() {
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
           >
-            Thank you for accepting, I love you! 💕
-            <p className="text-sm mt-4">For more information, write me!!! 💌</p>
+            Thank you for accepting, I love you with all my heart 💕
+            
             <Image
               src="/hamster_jumping.gif"
               alt="Hamster Feliz"
